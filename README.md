@@ -1,0 +1,7 @@
+For a start, Quantum Key Distribution offers security not depending on any fundamental assumption. However, actual realizations choose to use weak coherent pulses as photon sources, rather than the ideal single-photon state, which
+bears security weaknesses due to the emission of sporadic multi-photon states. These states can be used in PhotonNumber Splitting (PNS) attacks, where the attacker intercepts and buffers photons of multi-photon pulses and forwards
+the rest, enabling partial recovery of the key without inducing detectable perturbations. This article presents a simulation-based approach to analyze PNS attacks with realistic channel conditions like losses, detector imperfections,
+and finite key lengths. The research also examines the performance of decoy-state countermeasures, that use variableintensity pulses to statistically reveal eavesdropping and Simulation results confirm the dominant character of PNS
+on raw key rates for the no-countermeasure scenario and ensure optimal decoy-state schemes restore security by cutting single-photon contributions. Results establish that although WCP QKD is vulnerable to PNS attacks in theory,
+strict adoption of decoy-state protocols aided with monitoring and finite-key analysis can provide immunity against an adversary. The paper emphasizes the need for simulation-based, implementation-dependent security analysis in
+direction towards well-designed practical quantum cryptographic systems.
